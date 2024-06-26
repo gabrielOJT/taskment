@@ -6,6 +6,7 @@ taskMent is a modern, user-friendly task management application built with React
 taskMent/
 ├── src/
 │   ├── components/
+|   |   └── SEO.tsx
 │   │   ├── TaskList.tsx
 │   │   ├── TaskItem.tsx
 │   │   └── AddTaskForm.tsx
@@ -24,6 +25,7 @@ taskMent/
 
 ## 🌟Features
 
+- SEO
 - Create, read, update, and delete tasks
 - Mark tasks as completed
 - Filter tasks (show/hide completed)
@@ -38,3 +40,4 @@ taskMent/
 - Vite
 - Tailwind CSS
 - React Transition Group
+- React Helment
