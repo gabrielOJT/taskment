@@ -73,12 +73,6 @@ const App: React.FC = () => {
           />
         </div>
       </main>
-      {/* <footer className="bg-gray-800 py-4 text-center">
-        <p className="text-gray-400 text-sm">
-          © {new Date().getFullYear()} TaskMent by gabdotcode. All rights
-          reserved.
-        </p>
-      </footer> */}
       <footer className="bg-gray-800 py-4 text-center">
         <div className="max-w-md mx-auto px-4">
           <p className="text-gray-400 text-sm mb-2">
