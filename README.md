@@ -1,8 +1,28 @@
-# TaskMent
+# taskMent
 
-TaskMent is a modern, user-friendly task management application built with React, TypeScript, and Vite. It allows users to efficiently organize their tasks, helping them to master their daily activities and free their minds.
+taskMent is a modern, user-friendly task management application built with React, TypeScript, and Vite. It allows users to efficiently organize their tasks, helping them to master their daily activities and free their minds.
 
-## Features
+```
+taskMent/
+├── src/
+│   ├── components/
+│   │   ├── TaskList.tsx
+│   │   ├── TaskItem.tsx
+│   │   └── AddTaskForm.tsx
+│   ├── hooks/
+│   │   └── useLocalStorage.ts
+│   ├── types/
+│   │   └── Task.ts
+│   ├── App.tsx
+│   ├── index.css
+│   └── main.tsx
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+## 🌟Features
 
 - Create, read, update, and delete tasks
 - Mark tasks as completed
@@ -11,7 +31,7 @@ TaskMent is a modern, user-friendly task management application built with React
 - Dark mode UI for reduced eye strain
 - Local storage persistence
 
-## Technologies Used
+## 🛠️Technologies Used
 
 - React
 - TypeScript
